@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="945b0225337909.563440870421b.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Rahul's Developer Portfolio</title>
+</head>
+
+<body>
+    <!-- header start  -->
+
+    <header>
+
+        <div class="navDrawerLinks unActive">
+
+            <div class="cutIcon" onclick="clickCut()">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i>About</a></li>
+                <li><a href="#project"><i class="fa-solid fa-diagram-project"></i>Projects</a></li>
+                <li><a href="#resume"><i class="fa-solid fa-file"></i>Resume</a></li>
+            </ul>
+        </div>
+        <!-- nav start -->
+        <nav>
+            <div class="left"><span>RAHUL'S</span> Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#" class="flex item-center"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i>About</a></li>
+                    <li><a href="#"><i class="fa-solid fa-diagram-project"></i>Projects</a></li>
+                    <li><a href="#"><i class="fa-solid fa-file"></i>Resume</a></li>
+                </ul>
+                <div class="navDrawer" onclick="clickfun()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+
+            </div>
+        </nav>
+        <!-- nav end -->
+    </header>
+    <!-- header end  -->
+    <!-- main start -->
+    <main>
+        <!-- first section start -->
+        <section class="firstSection">
+            <section class="leftSection">
+                <h1>Hi,My name is <span> Rahul</span></h1>
+
+                <span>and I am a passionate <br><span id="element"></span>
+                </span>
+            </section>
+            <section class="rightSection">
+                <img src="mean_developer.png" alt="">
+            </section>
+
+        </section>
+        <!-- first section end -->
+        <!-- second section start -->
+        <hr>
+        <section class="secondSection">
+            <h1>LET ME <span>INTRODUCE</span> MYSELF</h1>
+
+            <p>
+                Hey there! I'm <span>Rahul Taak</span> , a first-year BCA student with a burning passion for web
+                development and
+                programming. Despite being a rookie in the field, I've enthusiastically dabbled in HTML, CSS,
+                JavaScript, and even C programming language. My journey into the coding cosmos began with a simple
+                question: "How do websites work?" Since then, I've been hooked on the endless possibilities that
+                programming offers.
+            </p>
+            <p>
+                While my experience may be modest, my enthusiasm and determination know no bounds. I firmly believe that
+                with the right mindset and dedication, any challenge can be conquered. I'm always on the lookout for
+                opportunities to expand my knowledge and sharpen my skills, whether it's through coding challenges,
+                online tutorials, or collaborating with peers.
+            </p>
+            <p>
+                Though I'm still finding my footing in this vast digital landscape, I approach every coding conundrum
+                with confidence and a hunger for knowledge. I understand the value of continuous growth and strive to
+                push myself beyond my comfort zone to unlock new levels of proficiency.
+            </p>
+            <p>In addition to my technical prowess, I've also begun to dip my toes into the world of version control
+                systems like GitHub 🐱‍💻, where I'm starting to grasp the collaborative spirit of software development.
+            </p>
+            <p>
+                When I'm not knee-deep in code, you can catch me exploring new hobbies 🎨, soaking up nature's beauty
+                🌿, or engaging in deep conversations with friends and mentors 💬. I firmly believe in the power of
+                community and collaboration and am eager to connect with like-minded developers, mentors, and potential
+                collaborators who share my fervor for technology and innovation.
+            </p>
+            <p>
+                Thanks for taking the time to get to know me a little better. I'm stoked about the journey ahead and the
+                boundless opportunities that lie in wait!
+            </p>
+
+        </section>
+        <!-- second section end -->
+
+        <!-- after click action start -->
+        <div class="projectsContainer">
+            <h1>MY RECENT <span>PROJECTS</span></h1>
+            <div class="projectsSection">
+
+                <div class="projects">
+                    <div class="projectDes">
+                        <img src="project1.png" alt="">
+                        <h1>KFC website clone</h1>
+                        <p>KFC website clone using HTML, CSS, JavaScript; mirrors design and functionality, lacks
+                            responsiveness for diverse devices.</p>
+                    </div>
+
+                    <div class="projectsLinks">
+                        <a href="https://github.com/Rahultaakhr/kfc" target="_blank">Git</a>
+                        <a href="https://rahultaakhr.github.io/kfc/" target="_blank">Demo</a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="projectDes">
+                        <img src="project2.png" alt="">
+                        <h1>Personal project</h1>
+                        <p>A personal project just for fun but I gain knowledge from this</p>
+                    </div>
+
+                    <div class="projectsLinks">
+                        <a href="https://github.com/Rahultaakhr/Personal" target="_blank">Git</a>
+                        <a href="https://rahultaakhr.github.io/Personal/" target="_blank">Demo</a>
+                    </div>
+
+                </div>
+                <div class="projects">
+                    <div class="projectDes">
+                        <img src="project3.png" alt="">
+                        <h1>E-commerce project</h1>
+                        <p>An ecommerce Website using HTML CSS and Javascript with some functionality </p>
+                    </div>
+
+                    <div class="projectsLinks">
+                        <a href="https://github.com/Rahultaakhr/New_ecommerce" target="_blank">Git</a>
+                        <a href="https://rahultaakhr.github.io/New_ecommerce/" target="_blank">Demo</a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="projectDes">
+                        <img src="project4.png" alt="">
+                        <h1>Simple react app</h1>
+                        <p>A simple website using React js based on react router concept
+                            very important for me understanding react router
+                        </p>
+                    </div>
+
+                    <div class="projectsLinks">
+                        <a href="https://github.com/Rahultaakhr/react-app" target="_blank">Git</a>
+                        <a href="https://react-app-beta-cyan.vercel.app/" target="_blank">Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- after click action end -->
+
+
+
+
+
+
+
+        <!-- conecting section start -->
+        <section class="connectMe">
+            <h1>FIND ME ON</h1>
+            <p>Feel free to <span>connect</span> with me
+            </p>
+            <ul>
+                <li><a href="https://github.com/Rahultaakhr" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li><a href="https://twitter.com/rahultaakhr" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li><a href="www.linkedin.com/in/rahul-taak-hr999" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/rahu_l_hr/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </section>
+        <!-- conecting section end -->
+
+    </main>
+    <!-- main end -->
+    <footer>
+        <p>Developed By Rahul Taak </p>
+        <p>Copyright © 2024</p>
+        <ul>
+            <li><a href="https://github.com/Rahultaakhr" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://twitter.com/rahultaakhr" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="www.linkedin.com/in/rahul-taak-hr999" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/rahu_l_hr/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>$(".bars").click(function () {
+            $("nav .right ul").toggleClass("active");
+            $(".navDrawer i").toggleClass("active");
+        });
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
