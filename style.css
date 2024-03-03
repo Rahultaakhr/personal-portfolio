@@ -267,7 +267,7 @@ footer ul li {
 .projectsSection .projects {
     height: 420px;
     width: 400px;
-    border: 2px solid black;
+    border: 2px solid rgb(79, 1, 97);
     border-radius: 20px;
     margin: 0 20px;
     overflow: hidden;
@@ -455,6 +455,7 @@ footer ul li {
     .projectsSection .projects{
        padding: 20px 10px;
        height: auto;
+       width: 350px;
        
     }
 }
