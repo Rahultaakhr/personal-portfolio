@@ -243,9 +243,10 @@ footer ul li {
 
 .projectsContainer{
     text-align: center;
-    height: 90vh;
+    height: auto;
     width: 100vw;
     display: flex;
+    margin: 50px 0;
     flex-direction: column;
     justify-content: space-around;
 }
@@ -258,9 +259,11 @@ footer ul li {
 .projectsSection {
     /* background-color: red; */
     display: flex;
+    height: auto;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 40px;
+    justify-content: space-around;
+    padding: 10px 40px;
    
 }
 
@@ -269,7 +272,7 @@ footer ul li {
     width: 400px;
     border: 2px solid rgb(79, 1, 97);
     border-radius: 20px;
-    margin: 0 20px;
+    margin: 10px 20px;
     overflow: hidden;
     flex-wrap: wrap;
     display: flex;
@@ -449,6 +452,7 @@ footer ul li {
     .projectsSection{
         flex-direction: column;
         gap: 20px;
+        flex-wrap: unset;
         
     }
     
